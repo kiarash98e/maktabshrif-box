@@ -5,22 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>box</title>
+    <!-- add Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- style customize -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="row-1">
+        <div class="row-1" data-aos="fade-down">
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
         </div>
-        <div class="row-2">
+        <div class="row-2" data-aos="fade-up">
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
         </div>
     </div>
+
+    <script>
+         AOS.init();
+    </script>
 </body>
 </html>
